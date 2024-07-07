@@ -1,0 +1,32 @@
+.card {
+    border: 2px solid var(--gray-100);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--gray-0);
+    flex: 0 0 300px;
+    
+    img {
+        height: 150px;
+        object-fit: contain;
+    }
+
+    div {
+        padding: var(--spacing-lg);
+        background-color: var(--color-white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    transition: 0.4s;
+
+    &:hover {
+        border: 2px solid var(--color-primary);
+        button {
+            background-color: var(--color-primary);
+        }
+    }
+}

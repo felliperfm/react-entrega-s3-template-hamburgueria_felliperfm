@@ -1,0 +1,60 @@
+.header {
+    background-color: var(--gray-0);
+}
+
+.headerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.75rem;
+    padding: 0 1.5rem;
+}
+
+.menuBox {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: var(--spacing-md);
+}
+
+.cartButton {
+    position: relative;
+}
+
+.itemCount {
+    position: absolute;
+    top: -.9375rem;
+    right: -.625rem;
+    display: block;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    font-size: var(--font-size-200);
+    font-weight: 900;
+    padding: 3px 6px;
+    border-radius: 7px;
+}
+
+.icon {
+    color: var(--gray-300);
+}
+
+.input {
+    font-size: var(--font-size-300);
+    color: var(--gray-600);
+    padding: 0 var(--spacing-lg);
+    background-color: var(--color-white);
+    border-radius: 0.5rem;
+    height: 2rem;
+    &::placeholder {
+        color: var(--gray-100);
+    }
+}
+
+.searchBox {
+    position: relative;
+}
+
+.searchButton {
+    position: absolute;
+    top: .3125rem;
+    right: .3125rem;
+}

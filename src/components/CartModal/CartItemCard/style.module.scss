@@ -1,0 +1,28 @@
+.itemCard {
+    display: flex;
+    justify-content: space-between;
+    padding:  var(--spacing-md) 0;
+
+
+    div {
+        display: flex;
+        gap: var(--spacing-lg);
+        
+        img {
+            background-color: var(--gray-100);
+            object-fit: contain;
+            width: 80px;
+            border-radius: 5px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+
+.removeButton {
+    color: var(--gray-300);
+}
